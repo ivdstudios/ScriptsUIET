@@ -3,6 +3,8 @@ using System.Collections;
 
 public class ScriptingIsFun : MonoBehaviour {
 
+	int x = 345; 
+
 	// Use this for initialization
 	void Start () {
 		print("Hello"); 
