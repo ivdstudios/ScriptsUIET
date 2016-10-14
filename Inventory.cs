@@ -5,7 +5,6 @@ public class Inventory : MonoBehaviour {
 
 	public class GunsNAmmo{
 		public int ammo = 3; 
-		public int granade = 2; 
 		public bool arquebus = false;
 		public bool blunderbuss = false; 
 		public bool musket = false; 
@@ -24,10 +23,18 @@ public class Inventory : MonoBehaviour {
 		public int boomerang = 4; 
 	}
 
+	public class Bombs{
+		public int granade = 23;
+		public int smokeGranade = 2; 
+		public int flashBomb = 234; 
+		public int mines = 2; 
+		public int c4Explosive = 6; 
+	}
+
 	public GunsNAmmo gnm = new GunsNAmmo(); 
 	public GunsNAmmo gnm1 = new GunsNAmmo(); 
 	// public MeleeWeapon ml = new MeleeWeapon(); 
-
+	public Bombs bmb = new Bombs(); 
 
 	// Use this for initialization
 	void Start () {
@@ -35,6 +42,7 @@ public class Inventory : MonoBehaviour {
 	
 		gnm.Purchase(10);
 
+		print(bmb.mines); 
 	}
 	
 	// Update is called once per frame
