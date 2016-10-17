@@ -15,9 +15,13 @@ public class ArrayNew : MonoBehaviour {
 
 	void Start()
 	{
-		if(Input.GetKeyDown(KeyCode.UpArrow))
+		if(Input.GetKey(KeyCode.UpArrow))
 		{
-			transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime)); 
+			transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime); 
+		}
+		if(Input.GetKey(KeyCode.UpArrow))
+		{
+			
 		}
 	}
 }
