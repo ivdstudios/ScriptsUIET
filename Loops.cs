@@ -50,8 +50,9 @@ public class Loops : MonoBehaviour {
 
 		// variable = i++
 		// variable = ( i = i + 1 )
-
-
+		// Read more from the below link 
+		//
+        //http://stackoverflow.com/questions/24853/what-is-the-difference-between-i-and-i
 		// variable = ++i
 		// variable = (i + 1 = i ) 
 	}
