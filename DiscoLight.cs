@@ -7,8 +7,23 @@ public class DiscoLight : MonoBehaviour {
 
 	Light discoLight; 
 
+	string s = "2"; 
+
 	// Use this for initialization
 	void Start () {
+		int jordon = int.Parse(s); 
+		string newString = jordon.ToString(); 
+
+		bool val = System.Convert.ToBoolean("True"); 
+
+		if(val == true)
+		{
+			print("Maja aavigayoo");
+		}
+
+		print("This is string" + newString); 
+
+		print("Printing is fun...you may print it " + jordon); 
 		discoLight = GetComponent<Light>(); 
 		print(discoLight);
 	}
